@@ -1,0 +1,49 @@
+						ALGORİTMA
+
+	Yazılım ve programlamada ilk safha, elimizdeki sorunların analiz edilmesidir.Bu analizin programlamacı tarafından kodlanmadan önce adım adım yapılması gerekmektedir. Yazılımı yazmadan önceki bu işlemlere ALGORİTMA denir ve bu algoritmaların birbiri ile ilişkilendirilip şekile dökülmesine de AKIŞ ŞEMASI denir. İyi bir yazılımcı olmak için öncelikle iyi bir algoritma becerisine sahip olmamız gerekmektedir. Günümüzün en büyük problemi programcıların algoritma seviyelerini geliştirmeden direkt programlama dilini öğrenmeye çalışmasıdır. Fakat şunu göz ardı etmemeliyiz ki problemin çözümü bilinmezse yazılım bilmenin hiçbir anlamı kalmamaktadır. Bu sorunu ortadan kaldırmak için bu video serisini başlatma kararı aldım. Ümit ediyorum ki herkes için faydalı bir çalışma olur.
+							
+																												Berkay Ercan
+
+Program nasıl yazılır?
+
+ Problemi anla - problemi analiz et - çözüm yolu ara - en hızlı çözümü bul - akış şeması oluştur - yazılımı yaz - test et - sonlandır
+
+Algoritma yazdığımız programın bir başlangıç noktasından bitiş durumuna kadar ulaşmamısını sağlayan yapıdır.Bu yapıyı çeşitli yöntemler ile hazırlayabiliriz. Biz bu yöntemlerden 2 tanesini kullanara devam edeceğiz. Bunlardan ilki gündelik dil olarak yazılan kısım , ikincisi ise grafiksel olarak ifade ettiğimiz akış diyagramı veya akış şeması denilen kısımdır.
+
+Gündelik dile örnek
+
+1- Başla
+2- ……….
+3- ………. 
+4- ……….
+5- Bitir
+
+Örnek: Türk kahvesi nasıl yapılır ?
+
+Algoritma:
+
+1- Başla
+2- Kahve,cezve,su,şeker,ateş,fincan
+3- cezveye kahveyi koy; 
+4- cezveye suyu koy
+5- cezveyi ateşe koy
+6- Eğer içerik kaynamışsa bunu fincana koy
+7- Eğer şekerli içiliyorsa fincana şeker koy
+8- kahveyi karıştır
+9- Kahveyi iç
+10- Bitir
+
+Bu örneği koyma amacım yaşamımızın her anında karşımıza çıkabilecek sorunlara nasıl bir çözüm uyguladığımızı göstermektedir. Bir kahve yapmanın bile yapmayı bilmeyen için bir sorun teşkil edeceğini düşünürsek, her problemin çözümünün bir algoritması olduğunu kanıtlayabilimişimdir umarım.
+
+ÖRNEK;
+
+İki sayının toplamını veren programın algoritma ve akış diyagramını çiziniz.
+
+Algoritma:
+
+1- Başla
+2- a,b,c
+3- a,b gir
+4- c=a+b
+5- Yazdır c
+6- Bitir
