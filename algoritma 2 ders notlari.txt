@@ -1,0 +1,70 @@
+1'den 100'e kadar olan sayılarının küplerinin toplamını bulan 
+programın algoritma ve akış diyagramını çiziniz
+
+Algoritma:
+1- Başla
+2- sayi=1,toplam=0
+3- toplam=toplam+(sayi^3)
+4- sayi++
+5- Eğer sayi=101 ise devam et,
+ değilse 3'e git
+6- Yazdır toplam
+7- Bitir
+
+programi baslattik
+
+bir sayi degeri tanimlamamiz gerekiyor ve bu degeri 1 den baslatmaliyiz
+
+ardindan program sonunda bize toplam degerini verecek bir toplam degeri tanimliyoruz
+
+1. adimda 1 in kupunu aliriz ve sonucumuz 1 olur bunu toplam degerine atariz ve artik toplam degerimiz 0 yerine 1 olmus olur
+
+2. adimda 2 nin kupunu aliriz ve sonucumuz 8 olur bunu toplam degerine atariz ve artik toplam degerimiz 1 yerine 9 olur
+
+3. adimda 3 un kupunu aliriz ve sonucumuz 27 olur bunu toplam degerine atariz ve artik toplam degerimiz 9 yerine 36 olmuus olur
+
+bu sekilde her seferinde sayi degerimizi 1 arttiririz ve islem sonunda degerimizi toplam degerinin ustune atariz 
+
+ve her bu 1 seferlik donguden sonra sayi degerimizin 100 e ulasip ulasmadigini kontrol ederiz ki 100 e ulastiginda bu sayi degeri porogram dursun 
+
+
+
+C Kod:
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+ int sayi,top=0;
+ for(sayi=1;sayi<=101;i++)
+top=top+(sayi*sayi*sayi);
+ printf("1-100 arasi toplam :%d \n",top);
+getch();
+}
+
+
+
+
+C# Kod:
+using System;
+namespace dmg
+{
+ class Program
+ {
+ static void Main(string[] args)
+ {
+ int i;
+ int toplam = 0;
+ for (i = 1; i <= 101; i++)
+ {
+ toplam = toplam + (i * i * i);
+ }
+ Console.Write("1-100 arası toplam = " + toplam);
+ Console.ReadLine();
+ }
+ }
+}
+
+
+
+
+
